@@ -1,0 +1,892 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2026-11-08",
+  "candidates": [
+    {
+      "id": "tinubu",
+      "name": "Bola Ahmed Tinubu",
+      "party": "APC",
+      "partyFull": "All Progressives Congress",
+      "tier": 1,
+      "dataCompleteness": "full",
+      "age": 74,
+      "runningMate": {
+        "name": "Kashim Shettima",
+        "age": 59
+      },
+      "corePosition": "Continuity. \"Reforms are irreversible.\"",
+      "positions": {
+        "economy": {
+          "score": 2,
+          "status": "curated",
+          "summary": "Fiscal discipline, $1 trillion economy target, deepen reforms, transparency in oil value chain.",
+          "sources": [
+            "Official Manifesto / Public Records"
+          ]
+        },
+        "security": {
+          "score": 1,
+          "status": "curated",
+          "summary": "State police, stronger security architecture, disrupt terrorist financing.",
+          "sources": [
+            "Official Policy Declarations"
+          ]
+        },
+        "powerRotation": {
+          "score": -1,
+          "status": "curated",
+          "summary": "Incumbent seeking second term; no position beyond his own candidacy.",
+          "sources": [
+            "Public Record"
+          ]
+        },
+        "education": {
+          "score": 0,
+          "status": "curated",
+          "summary": "No major emergency declaration; focus on infrastructure.",
+          "sources": [
+            "Public Record"
+          ]
+        },
+        "governance": {
+          "score": 0,
+          "status": "curated",
+          "summary": "Fiscal discipline; transparency in oil value chain.",
+          "sources": [
+            "Official Policy Declarations"
+          ]
+        }
+      }
+    },
+    {
+      "id": "atiku",
+      "name": "Atiku Abubakar",
+      "party": "ADC",
+      "partyFull": "African Democratic Congress",
+      "tier": 1,
+      "dataCompleteness": "partial",
+      "age": 79,
+      "runningMate": {
+        "name": "Chibuike Rotimi Amaechi",
+        "age": 61
+      },
+      "corePosition": "Economic liberalisation and restoration.",
+      "positions": {
+        "economy": {
+          "score": -2,
+          "status": "curated",
+          "summary": "Restore a form of petrol subsidy, reopen land borders, diversify away from oil, develop southern ports.",
+          "sources": [
+            "Campaign Statements / Policy Speeches"
+          ]
+        },
+        "security": {
+          "score": 1,
+          "status": "curated",
+          "summary": "Tackle insecurity, restore confidence.",
+          "sources": [
+            "Public Statements"
+          ]
+        },
+        "powerRotation": {
+          "score": 2,
+          "status": "curated",
+          "summary": "Advocacy for restructuring the federal system.",
+          "sources": [
+            "Public Policy Declarations"
+          ]
+        },
+        "education": {
+          "score": null,
+          "status": "pending",
+          "summary": null,
+          "sources": []
+        },
+        "governance": {
+          "score": null,
+          "status": "pending",
+          "summary": null,
+          "sources": []
+        }
+      }
+    },
+    {
+      "id": "obi",
+      "name": "Peter Gregory Obi",
+      "party": "NDC",
+      "partyFull": "National Democratic Congress",
+      "tier": 1,
+      "dataCompleteness": "partial",
+      "age": 65,
+      "runningMate": {
+        "name": "Rabiu Musa Kwankwaso",
+        "age": 69
+      },
+      "corePosition": "Emergency on corruption, security, education, and power.",
+      "positions": {
+        "economy": {
+          "score": 1,
+          "status": "curated",
+          "summary": "Fiscal discipline, shift from consumption to production, 10,000 MW electricity target.",
+          "sources": [
+            "Official Policy Speeches / Manifestos"
+          ]
+        },
+        "security": {
+          "score": -2,
+          "status": "curated",
+          "summary": "Lead from the frontlines, pursue kidnappers into hideouts, national unity as security strategy.",
+          "sources": [
+            "Public Campaign Declarations"
+          ]
+        },
+        "powerRotation": {
+          "score": 0,
+          "status": "curated",
+          "summary": "Not specified — emphasis on competence and national unity.",
+          "sources": [
+            "Public Record"
+          ]
+        },
+        "education": {
+          "score": -2,
+          "status": "curated",
+          "summary": "State of emergency on education.",
+          "sources": [
+            "Policy Address"
+          ]
+        },
+        "governance": {
+          "score": -2,
+          "status": "curated",
+          "summary": "Emergency on corruption.",
+          "sources": [
+            "Campaign Speeches"
+          ]
+        }
+      }
+    },
+    {
+      "id": "makinde",
+      "name": "Oluseyi Abiodun Makinde",
+      "party": "APM",
+      "partyFull": "Allied Peoples Movement",
+      "tier": 1,
+      "dataCompleteness": "full",
+      "age": 58,
+      "runningMate": {
+        "name": "Musa Lawal Daura",
+        "age": 73
+      },
+      "corePosition": "\"Reset Nigeria.\"",
+      "positions": {
+        "economy": {
+          "score": 1,
+          "status": "curated",
+          "summary": "Channel excess crude oil revenue into welfare, lower cost of living, microeconomic reforms, job creation.",
+          "sources": [
+            "Campaign Policy Platform"
+          ]
+        },
+        "security": {
+          "score": 1,
+          "status": "curated",
+          "summary": "Restructure security architecture.",
+          "sources": [
+            "Public Statements"
+          ]
+        },
+        "powerRotation": {
+          "score": -1,
+          "status": "curated",
+          "summary": "50%+1 electoral threshold, government of national unity, constitutional reform.",
+          "sources": [
+            "Public Policy Address"
+          ]
+        },
+        "education": {
+          "score": 0,
+          "status": "curated",
+          "summary": "Improve access and quality; no emergency declaration specified.",
+          "sources": [
+            "Public Record"
+          ]
+        },
+        "governance": {
+          "score": -1,
+          "status": "curated",
+          "summary": "Constitutional reform, national unity government.",
+          "sources": [
+            "Campaign Declarations"
+          ]
+        }
+      }
+    },
+    {
+      "id": "sowore",
+      "name": "Omoyele Sowore",
+      "party": "AAC",
+      "partyFull": "African Action Congress",
+      "tier": 2,
+      "dataCompleteness": "partial",
+      "age": 55,
+      "runningMate": {
+        "name": "Magashi Haruna Garba",
+        "age": 49
+      },
+      "corePosition": "Radical redistribution.",
+      "positions": {
+        "economy": {
+          "score": -2,
+          "status": "curated",
+          "summary": "₦500,000 minimum wage, 24-hour electricity, restore fuel subsidy.",
+          "sources": [
+            "AAC Party Manifesto"
+          ]
+        },
+        "security": {
+          "score": null,
+          "status": "pending",
+          "summary": null,
+          "sources": []
+        },
+        "powerRotation": {
+          "score": 2,
+          "status": "curated",
+          "summary": "Restructuring.",
+          "sources": [
+            "Campaign Declarations"
+          ]
+        },
+        "education": {
+          "score": -2,
+          "status": "curated",
+          "summary": "Free and compulsory education from primary to university.",
+          "sources": [
+            "Official Policy Platform"
+          ]
+        },
+        "governance": {
+          "score": -2,
+          "status": "curated",
+          "summary": "Anti-corruption, transparency.",
+          "sources": [
+            "Public Speeches"
+          ]
+        }
+      }
+    },
+    {
+      "id": "adebayo",
+      "name": "Adewole Ebenezer Adebayo",
+      "party": "SDP",
+      "partyFull": "Social Democratic Party",
+      "tier": 2,
+      "dataCompleteness": "full",
+      "age": 58,
+      "runningMate": {
+        "name": "Usman Muhammed Bugaje",
+        "age": null
+      },
+      "corePosition": "Governance reform and measurable accountability.",
+      "positions": {
+        "economy": {
+          "score": 1,
+          "status": "curated",
+          "summary": "Transparent government, national security, economic development, measurable performance targets. Lawyer and entrepreneur; contested 2023.",
+          "sources": [
+            "Official SDP Manifesto"
+          ]
+        },
+        "security": {
+          "score": 1,
+          "status": "curated",
+          "summary": "Transparent government, national security, economic development, measurable performance targets.",
+          "sources": [
+            "Official SDP Manifesto"
+          ]
+        },
+        "powerRotation": {
+          "score": 0,
+          "status": "curated",
+          "summary": "Transparent government, national security, economic development, measurable performance targets.",
+          "sources": [
+            "Official SDP Manifesto"
+          ]
+        },
+        "education": {
+          "score": 1,
+          "status": "curated",
+          "summary": "Transparent government, national security, economic development, measurable performance targets.",
+          "sources": [
+            "Official SDP Manifesto"
+          ]
+        },
+        "governance": {
+          "score": 2,
+          "status": "curated",
+          "summary": "Transparent government, national security, economic development, measurable performance targets.",
+          "sources": [
+            "Official SDP Manifesto"
+          ]
+        }
+      }
+    },
+    {
+      "id": "duke",
+      "name": "Donald Duke",
+      "party": "PRP",
+      "partyFull": "Peoples Redemption Party",
+      "tier": 2,
+      "dataCompleteness": "partial",
+      "age": 66,
+      "runningMate": {
+        "name": "Kabiru Rabiu",
+        "age": null
+      },
+      "corePosition": "Experienced executive leadership.",
+      "positions": {
+        "economy": {
+          "score": 0,
+          "status": "curated",
+          "summary": "Background: Former Cross River State Governor (1999–2007). Focus on governance experience and institutional reform.",
+          "sources": [
+            "Executive Record / PRP Platform"
+          ]
+        },
+        "security": {
+          "score": null,
+          "status": "pending",
+          "summary": null,
+          "sources": []
+        },
+        "powerRotation": {
+          "score": null,
+          "status": "pending",
+          "summary": null,
+          "sources": []
+        },
+        "education": {
+          "score": null,
+          "status": "pending",
+          "summary": null,
+          "sources": []
+        },
+        "governance": {
+          "score": 1,
+          "status": "curated",
+          "summary": "Background: Former Cross River State Governor (1999–2007). Focus on governance experience and institutional reform.",
+          "sources": [
+            "Executive Record / PRP Platform"
+          ]
+        }
+      }
+    },
+    {
+      "id": "onor",
+      "name": "Sandy Ojang Onor",
+      "party": "PDP",
+      "partyFull": "Peoples Democratic Party",
+      "tier": 3,
+      "dataCompleteness": "pending",
+      "age": 60,
+      "runningMate": {
+        "name": "Umaru Babangida",
+        "age": 61
+      },
+      "corePosition": null,
+      "positions": {
+        "economy": {
+          "score": null,
+          "status": "pending",
+          "summary": null,
+          "sources": []
+        },
+        "security": {
+          "score": null,
+          "status": "pending",
+          "summary": null,
+          "sources": []
+        },
+        "powerRotation": {
+          "score": null,
+          "status": "pending",
+          "summary": null,
+          "sources": []
+        },
+        "education": {
+          "score": null,
+          "status": "pending",
+          "summary": null,
+          "sources": []
+        },
+        "governance": {
+          "score": null,
+          "status": "pending",
+          "summary": null,
+          "sources": []
+        }
+      }
+    },
+    {
+      "id": "okereke-lp",
+      "name": "Sunday Chibuzo Okereke",
+      "party": "LP",
+      "partyFull": "Labour Party",
+      "tier": 3,
+      "dataCompleteness": "pending",
+      "age": 43,
+      "runningMate": {
+        "name": "Hajja Bintu Konto",
+        "age": 54
+      },
+      "corePosition": null,
+      "positions": {
+        "economy": {
+          "score": null,
+          "status": "pending",
+          "summary": null,
+          "sources": []
+        },
+        "security": {
+          "score": null,
+          "status": "pending",
+          "summary": null,
+          "sources": []
+        },
+        "powerRotation": {
+          "score": null,
+          "status": "pending",
+          "summary": null,
+          "sources": []
+        },
+        "education": {
+          "score": null,
+          "status": "pending",
+          "summary": null,
+          "sources": []
+        },
+        "governance": {
+          "score": null,
+          "status": "pending",
+          "summary": null,
+          "sources": []
+        }
+      }
+    },
+    {
+      "id": "omo-aje",
+      "name": "Rufai Adekunle Omo-Aje",
+      "party": "AA",
+      "partyFull": "Action Alliance",
+      "tier": 3,
+      "dataCompleteness": "pending",
+      "age": 71,
+      "runningMate": {
+        "name": "Shehu Hussaini",
+        "age": 56
+      },
+      "corePosition": null,
+      "positions": {
+        "economy": {
+          "score": null,
+          "status": "pending",
+          "summary": null,
+          "sources": []
+        },
+        "security": {
+          "score": null,
+          "status": "pending",
+          "summary": null,
+          "sources": []
+        },
+        "powerRotation": {
+          "score": null,
+          "status": "pending",
+          "summary": null,
+          "sources": []
+        },
+        "education": {
+          "score": null,
+          "status": "pending",
+          "summary": null,
+          "sources": []
+        },
+        "governance": {
+          "score": null,
+          "status": "pending",
+          "summary": null,
+          "sources": []
+        }
+      }
+    },
+    {
+      "id": "aliyu",
+      "name": "Abbas-Bin Aliyu",
+      "party": "ADP",
+      "partyFull": "Action Democratic Party",
+      "tier": 3,
+      "dataCompleteness": "pending",
+      "age": 44,
+      "runningMate": {
+        "name": "Ike Chinazam",
+        "age": 50
+      },
+      "corePosition": null,
+      "positions": {
+        "economy": {
+          "score": null,
+          "status": "pending",
+          "summary": null,
+          "sources": []
+        },
+        "security": {
+          "score": null,
+          "status": "pending",
+          "summary": null,
+          "sources": []
+        },
+        "powerRotation": {
+          "score": null,
+          "status": "pending",
+          "summary": null,
+          "sources": []
+        },
+        "education": {
+          "score": null,
+          "status": "pending",
+          "summary": null,
+          "sources": []
+        },
+        "governance": {
+          "score": null,
+          "status": "pending",
+          "summary": null,
+          "sources": []
+        }
+      }
+    },
+    {
+      "id": "kabiru",
+      "name": "Yusuf Kabiru",
+      "party": "APP",
+      "partyFull": "Action Peoples Party",
+      "tier": 3,
+      "dataCompleteness": "pending",
+      "age": 54,
+      "runningMate": {
+        "name": "Ofordile Peace Egobia",
+        "age": 47
+      },
+      "corePosition": null,
+      "positions": {
+        "economy": {
+          "score": null,
+          "status": "pending",
+          "summary": null,
+          "sources": []
+        },
+        "security": {
+          "score": null,
+          "status": "pending",
+          "summary": null,
+          "sources": []
+        },
+        "powerRotation": {
+          "score": null,
+          "status": "pending",
+          "summary": null,
+          "sources": []
+        },
+        "education": {
+          "score": null,
+          "status": "pending",
+          "summary": null,
+          "sources": []
+        },
+        "governance": {
+          "score": null,
+          "status": "pending",
+          "summary": null,
+          "sources": []
+        }
+      }
+    },
+    {
+      "id": "adenuga",
+      "name": "Sunday Adenuga",
+      "party": "BP",
+      "partyFull": "Boot Party",
+      "tier": 3,
+      "dataCompleteness": "pending",
+      "age": 52,
+      "runningMate": {
+        "name": "Mustapha Usman Turaki",
+        "age": 40
+      },
+      "corePosition": null,
+      "positions": {
+        "economy": {
+          "score": null,
+          "status": "pending",
+          "summary": null,
+          "sources": []
+        },
+        "security": {
+          "score": null,
+          "status": "pending",
+          "summary": null,
+          "sources": []
+        },
+        "powerRotation": {
+          "score": null,
+          "status": "pending",
+          "summary": null,
+          "sources": []
+        },
+        "education": {
+          "score": null,
+          "status": "pending",
+          "summary": null,
+          "sources": []
+        },
+        "governance": {
+          "score": null,
+          "status": "pending",
+          "summary": null,
+          "sources": []
+        }
+      }
+    },
+    {
+      "id": "olusoji",
+      "name": "Adebisi Moses Olusoji",
+      "party": "DLA",
+      "partyFull": "Democratic Leadership Alliance",
+      "tier": 3,
+      "dataCompleteness": "pending",
+      "age": 35,
+      "runningMate": {
+        "name": "Abubakar Nafisat Usaku",
+        "age": 35
+      },
+      "corePosition": null,
+      "positions": {
+        "economy": {
+          "score": null,
+          "status": "pending",
+          "summary": null,
+          "sources": []
+        },
+        "security": {
+          "score": null,
+          "status": "pending",
+          "summary": null,
+          "sources": []
+        },
+        "powerRotation": {
+          "score": null,
+          "status": "pending",
+          "summary": null,
+          "sources": []
+        },
+        "education": {
+          "score": null,
+          "status": "pending",
+          "summary": null,
+          "sources": []
+        },
+        "governance": {
+          "score": null,
+          "status": "pending",
+          "summary": null,
+          "sources": []
+        }
+      }
+    },
+    {
+      "id": "okwori",
+      "name": "Ada Elizabeth Fredrick Okwori",
+      "party": "NDP",
+      "partyFull": "National Democratic Party",
+      "tier": 3,
+      "dataCompleteness": "pending",
+      "age": 48,
+      "runningMate": {
+        "name": "Chukwuemeka Uchenna Anthony",
+        "age": 48
+      },
+      "corePosition": null,
+      "positions": {
+        "economy": {
+          "score": null,
+          "status": "pending",
+          "summary": null,
+          "sources": []
+        },
+        "security": {
+          "score": null,
+          "status": "pending",
+          "summary": null,
+          "sources": []
+        },
+        "powerRotation": {
+          "score": null,
+          "status": "pending",
+          "summary": null,
+          "sources": []
+        },
+        "education": {
+          "score": null,
+          "status": "pending",
+          "summary": null,
+          "sources": []
+        },
+        "governance": {
+          "score": null,
+          "status": "pending",
+          "summary": null,
+          "sources": []
+        }
+      }
+    },
+    {
+      "id": "okereke-nrm",
+      "name": "Nkem Esther Okereke",
+      "party": "NRM",
+      "partyFull": "National Rescue Movement",
+      "tier": 3,
+      "dataCompleteness": "pending",
+      "age": 43,
+      "runningMate": {
+        "name": "Sulaiman Nasir Muhammed",
+        "age": 35
+      },
+      "corePosition": null,
+      "positions": {
+        "economy": {
+          "score": null,
+          "status": "pending",
+          "summary": null,
+          "sources": []
+        },
+        "security": {
+          "score": null,
+          "status": "pending",
+          "summary": null,
+          "sources": []
+        },
+        "powerRotation": {
+          "score": null,
+          "status": "pending",
+          "summary": null,
+          "sources": []
+        },
+        "education": {
+          "score": null,
+          "status": "pending",
+          "summary": null,
+          "sources": []
+        },
+        "governance": {
+          "score": null,
+          "status": "pending",
+          "summary": null,
+          "sources": []
+        }
+      }
+    },
+    {
+      "id": "agada",
+      "name": "Peter Agada",
+      "party": "YPP",
+      "partyFull": "Young Progressives Party",
+      "tier": 3,
+      "dataCompleteness": "pending",
+      "age": null,
+      "runningMate": {
+        "name": "Patience Ndidi Key",
+        "age": null
+      },
+      "corePosition": null,
+      "positions": {
+        "economy": {
+          "score": null,
+          "status": "pending",
+          "summary": null,
+          "sources": []
+        },
+        "security": {
+          "score": null,
+          "status": "pending",
+          "summary": null,
+          "sources": []
+        },
+        "powerRotation": {
+          "score": null,
+          "status": "pending",
+          "summary": null,
+          "sources": []
+        },
+        "education": {
+          "score": null,
+          "status": "pending",
+          "summary": null,
+          "sources": []
+        },
+        "governance": {
+          "score": null,
+          "status": "pending",
+          "summary": null,
+          "sources": []
+        }
+      }
+    },
+    {
+      "id": "nwanyanwu",
+      "name": "Daniel Daberechukwu Nwanyanwu",
+      "party": "ZLP",
+      "partyFull": "Zenith Labour Party",
+      "tier": 3,
+      "dataCompleteness": "pending",
+      "age": null,
+      "runningMate": {
+        "name": "Hassan Khalid",
+        "age": null
+      },
+      "corePosition": null,
+      "positions": {
+        "economy": {
+          "score": null,
+          "status": "pending",
+          "summary": null,
+          "sources": []
+        },
+        "security": {
+          "score": null,
+          "status": "pending",
+          "summary": null,
+          "sources": []
+        },
+        "powerRotation": {
+          "score": null,
+          "status": "pending",
+          "summary": null,
+          "sources": []
+        },
+        "education": {
+          "score": null,
+          "status": "pending",
+          "summary": null,
+          "sources": []
+        },
+        "governance": {
+          "score": null,
+          "status": "pending",
+          "summary": null,
+          "sources": []
+        }
+      }
+    }
+  ]
+}

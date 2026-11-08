@@ -1,0 +1,427 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2026-11-08",
+  "axes": [
+    {
+      "id": "economy",
+      "label": "Economy & Cost of Living",
+      "description": "Measures preferences on state intervention vs market deregulation, price controls, wage policies, and subsidy regimes."
+    },
+    {
+      "id": "security",
+      "label": "Security",
+      "description": "Measures approaches to internal security, policing models (state vs federal), operational leadership, and negotiation strategies."
+    },
+    {
+      "id": "powerRotation",
+      "label": "Power Rotation & Restructuring",
+      "description": "Measures positions on geopolitical power rotation, structural devolution of powers, and constitutional electoral reforms."
+    },
+    {
+      "id": "education",
+      "label": "Education & Human Capital",
+      "description": "Measures views on state vs federal responsibility, basic education declarations, public university tuition funding, and vocational priorities."
+    },
+    {
+      "id": "governance",
+      "label": "Governance & Anti-Corruption",
+      "description": "Measures strategies for anti-corruption enforcement, institutional autonomy, revenue management, and central vs local accountability."
+    }
+  ],
+  "scoringRules": {
+    "optionValueRange": [
+      -2,
+      2
+    ],
+    "axisWeighting": "user-ranked via drag-and-drop; weights normalised to sum to 1",
+    "compatibilityFormula": "1 - (sum(weight_i * |user_i - candidate_i|) / (2 * sum(weight_i)))"
+  },
+  "decisionLog": [
+    "Q1: Market reform/deregulation scored +2 (q1b); subsidy restoration scored -2 (q1a); targeted intervention/price capping scored -1 (q1c); direct social transfer scored +1 (q1d).",
+    "Q2: Radical statutory wage mandate (₦500k) scored -2 (q2a); direct social welfare transfer scored -1 (q2d); productivity-tied wage growth scored +1 (q2b); fully decentralised/market wage setting scored +2 (q2c).",
+    "Q3: Pure macro stability & investor confidence scored +2 (q3a); immediate price intervention/relief scored -2 (q3b); structural diversification/production expansion scored -1 (q3c); fiscal discipline/anti-corruption primacy scored +1 (q3d).",
+    "Q4: Direct executive intervention scored -2 (q4a); state policing devolution scored +2 (q4b); structural security architecture overhaul scored +1 (q4c); socio-economic root cause approach scored -1 (q4d).",
+    "Q5: Executive leadership focus scored -2 (q5a); state policing decentralisation scored +2 (q5b); socio-economic poverty focus scored -1 (q5c); ethno-religious cohesion focus scored +1 (q5d).",
+    "Q6: Kinetic elimination scored +2 (q6b); local amnesty/reconciliation scored +1 (q6c); pragmatic negotiation scored -1 (q6a); non-kinetic socio-economic prevention scored -2 (q6d).",
+    "Q7: Unconditional geopolitical rotation scored -2 (q7a); conditional rotation scored -1 (q7c); structural devolution to regions scored +1 (q7d); pure meritocracy/anti-rotation scored +2 (q7b).",
+    "Q8: Full regional/state restructuring scored +2 (q8a); targeted security/local autonomy scored +1 (q8c); electoral threshold reform scored -1 (q8b); constitutional universal free education scored -2 (q8d).",
+    "Q9: State of emergency / universal free education scored -2 (q9a); vocational/market alignment scored -1 (q9d); performance target investments scored +1 (q9b); full state decentralisation scored +2 (q9c).",
+    "Q10: Universal free university scored -2 (q10a); targeted STEM/education subsidy scored -1 (q10c); basic education priority / fiscal realism scored +1 (q10d); user-paid with student loan access scored +2 (q10b).",
+    "Q11: Direct presidential anti-corruption crusade scored -2 (q11a); decentralised local accountability scored -1 (q11d); restitution priority scored +1 (q11c); institutional independence/autonomy scored +2 (q11b).",
+    "Q12: Universal fuel subsidy restoration scored -2 (q12d); excess revenue direct welfare transfers scored -1 (q12a); sovereign wealth fund savings scored +1 (q12b); full market deregulation & subsidy removal scored +2 (q12c)."
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "axis": "economy",
+      "prompt": "A bag of rice that cost ₦30,000 two years ago now costs ₦80,000. What should the government do first?",
+      "options": [
+        {
+          "id": "q1a",
+          "text": "Restore a form of fuel subsidy and reopen land borders to bring down transport and food costs fast.",
+          "value": -2,
+          "authorNote": "atiku"
+        },
+        {
+          "id": "q1b",
+          "text": "Keep the reforms in place and let the market stabilise — reversing now would waste the pain already endured.",
+          "value": 2,
+          "authorNote": "tinubu"
+        },
+        {
+          "id": "q1c",
+          "text": "Declare an emergency on food production and cap essential prices while investing in agriculture.",
+          "value": -1,
+          "authorNote": "obi"
+        },
+        {
+          "id": "q1d",
+          "text": "Channel excess crude oil revenue directly into cash transfers and welfare for the poorest Nigerians.",
+          "value": 1,
+          "authorNote": "makinde"
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "axis": "economy",
+      "prompt": "Nigeria's minimum wage is ₦70,000. What is the right approach?",
+      "options": [
+        {
+          "id": "q2a",
+          "text": "Raise it immediately to a living wage (₦500,000) and provide 24-hour electricity to reduce business costs.",
+          "value": -2,
+          "authorNote": "sowore"
+        },
+        {
+          "id": "q2b",
+          "text": "Phase in wage increases tied to productivity and revenue, without destabilising small businesses.",
+          "value": 1,
+          "authorNote": "moderate"
+        },
+        {
+          "id": "q2c",
+          "text": "Leave wage setting to states and the private sector; the federal government should focus on inflation.",
+          "value": 2,
+          "authorNote": "decentralised"
+        },
+        {
+          "id": "q2d",
+          "text": "Prioritise cash transfers over wage hikes — direct payments reach the informal sector that wages miss.",
+          "value": -1,
+          "authorNote": "welfare"
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "axis": "economy",
+      "prompt": "The naira has stabilised but prices remain high. What matters more?",
+      "options": [
+        {
+          "id": "q3a",
+          "text": "Macroeconomic stability — a strong naira and investor confidence will eventually trickle down.",
+          "value": 2,
+          "authorNote": "tinubu"
+        },
+        {
+          "id": "q3b",
+          "text": "The price of bread today — macro numbers mean nothing if people cannot eat.",
+          "value": -2,
+          "authorNote": "makinde"
+        },
+        {
+          "id": "q3c",
+          "text": "Breaking dependence on oil and building productive capacity so the economy is not hostage to crude prices.",
+          "value": -1,
+          "authorNote": "atiku"
+        },
+        {
+          "id": "q3d",
+          "text": "Fiscal discipline and anti-corruption — the problem is not the economy, it is stolen money.",
+          "value": 1,
+          "authorNote": "obi"
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "axis": "security",
+      "prompt": "Kidnappers have taken schoolchildren from a school in Kaduna. What should the President do?",
+      "options": [
+        {
+          "id": "q4a",
+          "text": "Go to the bush with the security forces and pursue them personally.",
+          "value": -2,
+          "authorNote": "obi"
+        },
+        {
+          "id": "q4b",
+          "text": "Devolve policing to states so local intelligence and accountability improve.",
+          "value": 2,
+          "authorNote": "tinubu"
+        },
+        {
+          "id": "q4c",
+          "text": "Restructure the entire security architecture and hold service chiefs accountable for outcomes.",
+          "value": 1,
+          "authorNote": "makinde"
+        },
+        {
+          "id": "q4d",
+          "text": "Treat insecurity as a symptom of poverty and unemployment — invest in jobs and education as the real security strategy.",
+          "value": -1,
+          "authorNote": "rootCause"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "axis": "security",
+      "prompt": "What is the root cause of Nigeria's insecurity?",
+      "options": [
+        {
+          "id": "q5a",
+          "text": "Weak leadership and corruption at the top — the President must lead from the front.",
+          "value": -2,
+          "authorNote": "obi"
+        },
+        {
+          "id": "q5b",
+          "text": "A broken federal policing model — states need their own police.",
+          "value": 2,
+          "authorNote": "tinubu"
+        },
+        {
+          "id": "q5c",
+          "text": "Economic exclusion and poverty — hungry, jobless young men are recruited into violence.",
+          "value": -1,
+          "authorNote": "economic"
+        },
+        {
+          "id": "q5d",
+          "text": "Ethno-religious division — until Nigeria is united, security will remain elusive.",
+          "value": 1,
+          "authorNote": "obi"
+        }
+      ]
+    },
+    {
+      "id": "q6",
+      "axis": "security",
+      "prompt": "Should the federal government negotiate with bandits and insurgents?",
+      "options": [
+        {
+          "id": "q6a",
+          "text": "Yes — negotiate from a position of strength to secure the release of hostages and reduce violence.",
+          "value": -1,
+          "authorNote": "negotiation"
+        },
+        {
+          "id": "q6b",
+          "text": "No — pursue them into their hideouts and dismantle their networks.",
+          "value": 2,
+          "authorNote": "obi"
+        },
+        {
+          "id": "q6c",
+          "text": "Only through community-level reconciliation and amnesty, not federal deals.",
+          "value": 1,
+          "authorNote": "localAmnesty"
+        },
+        {
+          "id": "q6d",
+          "text": "The question is wrong — the focus should be on preventing recruitment through jobs and education.",
+          "value": -2,
+          "authorNote": "prevention"
+        }
+      ]
+    },
+    {
+      "id": "q7",
+      "axis": "powerRotation",
+      "prompt": "Should the presidency rotate between the North and South in 2027?",
+      "options": [
+        {
+          "id": "q7a",
+          "text": "Yes — it is an unwritten rule that has kept Nigeria together, and it must be respected.",
+          "value": -2,
+          "authorNote": "smblf"
+        },
+        {
+          "id": "q7b",
+          "text": "No — competence and integrity matter more than where a candidate is from.",
+          "value": 2,
+          "authorNote": "meritocracy"
+        },
+        {
+          "id": "q7c",
+          "text": "Yes, but rotation must be accompanied by performance — rotating power without rotating results is useless.",
+          "value": -1,
+          "authorNote": "conditionalRotation"
+        },
+        {
+          "id": "q7d",
+          "text": "The whole system needs restructuring — power should devolve to regions and states, making the presidency less powerful.",
+          "value": 1,
+          "authorNote": "restructuring"
+        }
+      ]
+    },
+    {
+      "id": "q8",
+      "axis": "powerRotation",
+      "prompt": "What is the single most important constitutional reform Nigeria needs?",
+      "options": [
+        {
+          "id": "q8a",
+          "text": "Restructuring — devolve power and resources to states and regions.",
+          "value": 2,
+          "authorNote": "restructuring"
+        },
+        {
+          "id": "q8b",
+          "text": "An electoral threshold requiring 50%+1 to win the presidency, forcing broad coalitions.",
+          "value": -1,
+          "authorNote": "makinde"
+        },
+        {
+          "id": "q8c",
+          "text": "State police and local government autonomy.",
+          "value": 1,
+          "authorNote": "devolution"
+        },
+        {
+          "id": "q8d",
+          "text": "Free and compulsory education from primary to university.",
+          "value": -2,
+          "authorNote": "sowore"
+        }
+      ]
+    },
+    {
+      "id": "q9",
+      "axis": "education",
+      "prompt": "Nigeria's out-of-school children crisis is the worst in the world. What should be done?",
+      "options": [
+        {
+          "id": "q9a",
+          "text": "Declare a state of emergency on education and make basic education free and compulsory.",
+          "value": -2,
+          "authorNote": "sowore_obi"
+        },
+        {
+          "id": "q9b",
+          "text": "Invest in teacher training and school infrastructure, with measurable performance targets.",
+          "value": 1,
+          "authorNote": "adebayo"
+        },
+        {
+          "id": "q9c",
+          "text": "Leave it to states — education is a state matter and federal intervention has failed.",
+          "value": 2,
+          "authorNote": "states"
+        },
+        {
+          "id": "q9d",
+          "text": "Focus on skills and vocational training, not just academic education — the jobs are not there for graduates anyway.",
+          "value": -1,
+          "authorNote": "vocational"
+        }
+      ]
+    },
+    {
+      "id": "q10",
+      "axis": "education",
+      "prompt": "Should university education be free?",
+      "options": [
+        {
+          "id": "q10a",
+          "text": "Yes — free and compulsory from primary to university, funded by cutting waste.",
+          "value": -2,
+          "authorNote": "sowore"
+        },
+        {
+          "id": "q10b",
+          "text": "No — but student loans should be genuinely accessible and not debt traps.",
+          "value": 2,
+          "authorNote": "loans"
+        },
+        {
+          "id": "q10c",
+          "text": "Yes for STEM and education degrees, no for others — target subsidy where it has the highest return.",
+          "value": -1,
+          "authorNote": "stem"
+        },
+        {
+          "id": "q10d",
+          "text": "The focus should be on primary and secondary education first — free university is a luxury Nigeria cannot afford yet.",
+          "value": 1,
+          "authorNote": "basicFirst"
+        }
+      ]
+    },
+    {
+      "id": "q11",
+      "axis": "governance",
+      "prompt": "A governor is accused of stealing ₦50 billion. What should happen?",
+      "options": [
+        {
+          "id": "q11a",
+          "text": "The President should lead a visible anti-corruption fight and ensure prosecution regardless of party.",
+          "value": -2,
+          "authorNote": "obi"
+        },
+        {
+          "id": "q11b",
+          "text": "The institutions (EFCC, ICPC, courts) should handle it without presidential interference.",
+          "value": 2,
+          "authorNote": "institutions"
+        },
+        {
+          "id": "q11c",
+          "text": "The money should be recovered and returned to the state — prosecution is secondary to restitution.",
+          "value": 1,
+          "authorNote": "restitution"
+        },
+        {
+          "id": "q11d",
+          "text": "This is why power should devolve — local accountability is more effective than federal anti-corruption theatre.",
+          "value": -1,
+          "authorNote": "decentralisation"
+        }
+      ]
+    },
+    {
+      "id": "q12",
+      "axis": "governance",
+      "prompt": "How should Nigeria's oil revenue be managed?",
+      "options": [
+        {
+          "id": "q12a",
+          "text": "Channel excess revenue above the budget benchmark directly into citizen welfare programmes.",
+          "value": -1,
+          "authorNote": "makinde"
+        },
+        {
+          "id": "q12b",
+          "text": "Save it in a sovereign wealth fund for future generations and economic stability.",
+          "value": 1,
+          "authorNote": "swf"
+        },
+        {
+          "id": "q12c",
+          "text": "Remove the subsidy entirely and let the market allocate resources efficiently.",
+          "value": 2,
+          "authorNote": "tinubu"
+        },
+        {
+          "id": "q12d",
+          "text": "Use it to restore the subsidy and keep fuel prices affordable for ordinary Nigerians.",
+          "value": -2,
+          "authorNote": "atiku_sowore"
+        }
+      ]
+    }
+  ]
+}
